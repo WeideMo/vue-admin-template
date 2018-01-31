@@ -1,0 +1,45 @@
+﻿@charset "UTF-8";
+@import "_variable.scss";
+
+/* font Style */
+$title1-fontSize: 18px;
+$title2-fontSize: 16px;
+
+/* body style */
+$body-color:#4c5764;
+$body-background:#EFEFEF;
+$body-fontSize:12px;
+
+/* header style */
+$header-height:60px;
+$header-shadow:0 2px 8px 0 rgba(13,29,74,0.19);
+$header-background:$white-color;
+$header-color:$darkWhite-color;
+$header-title-fontSize:20px;
+
+/* sidebar style */
+$sidebar-width:183px;
+$sidebar-hover-width:180px;
+$sidebar-height:100%;
+$sidebar-background:#152858;
+$sidebar-active-background:#27386F;
+$sidebar-normal-background:#27386f;
+$sidebar-active-color:#96ACFF;
+$sidebar-shadow: 0 6px 10px 0 rgba(74,97,217,0.55);
+$sidebar-title-fontSize:16px;
+$sidebar-subTitle-fontSize:14px;
+$sidebar-title-color:#C7D5DA;
+$sidebar-subTitle-fontSize:14px;
+$sidebar-item-height:50px;
+$sidebar-item-margin:5px;
+
+/* panel style */
+$panel-background: $white-color;
+$panel-border-radius: 2px;
+$panel-box-shadow: 0 1px 18px 0 rgba(0,0,0,0.06);
+$panel-select-height:56px;
+$panel-select-background: #162a5a;
+$panel-select-shadow: 0 1px 11px 0 rgba(4,20,70,0.21);;
+$panel-title-fontSize: 16px;
+
+

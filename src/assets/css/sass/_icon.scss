@@ -1,0 +1,296 @@
+@charset "UTF-8";
+//Img Icon
+i.icon {
+}
+
+//Css3 Icon
+span.icon {
+  &.icon-upArrow,&.icon-downArrow,&.icon-rightArrow,&.icon-leftArrow{
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-top: 1px solid #6B7C83;
+    border-right: 1px solid #6B7C83;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  &.icon-rightArrow{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  &.icon-leftArrow{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  &.icon-downArrow{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+}
+
+//Font Icon
+@font-face {
+  font-family: 'iconFont';
+  src: url(./assets/css/sass/iconFont/icomoon.eot);
+  src: url(./assets/css/sass/iconFont/icomoon.eot) format('embedded-opentype'), url(./assets/css/sass/iconFont/icomoon.ttf) format('truetype'), url(./assets/css/sass/iconFont/icomoon.woff) format('woff'), url(./assets/css/sass/iconFont/icomoon.svg) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i[class^="icon-f-"],
+i[class*="icon-f-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconFont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* transform =========== 覆盖图片图标2倍图缩放样式 */
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  display: inline-block;
+  &:before {
+    color: #4c5764;
+  }
+}
+//人员
+.icon-f-people:before {
+  content: "\e90c";
+  color: #4c5764;
+}
+//人员管理
+.icon-f-peopleAdmin:before {
+  content: "\e90d";
+  color: #4c5764;
+}
+//产品管理
+.icon-f-productAdmin:before {
+  content: "\e906";
+  color: #4c5764;
+}
+.icon-f-search:before {
+  content: "\e913";
+  color: #4c5764;
+}
+.icon-f-logo:before {
+  content: "\e911";
+  color: #4c5764;
+}
+.icon-f-radio:before {
+  content: "\e907";
+  color: #4c5764;
+}
+.icon-f-radioed:before {
+  content: "\e908";
+  color: #4c5764;
+}
+.icon-f-check:before {
+  content: "\e909";
+  color: #4c5764;
+}
+.icon-f-checked:before {
+  content: "\e90a";
+  color: #4c5764;
+}
+.icon-f-index_1:before {
+  content: "\e903";
+  color: #4c5764;
+}
+.icon-f-index_2:before {
+  content: "\e904";
+  color: #4c5764;
+}
+.icon-f-clear:before {
+  content: "\e928";
+  color: #6b7c83;
+}
+.icon-f-false:before {
+  content: "\e928";
+  color: #6b7c83;
+}
+.icon-f-next:before {
+  content: "\e900";
+  color: #4c5764;
+}
+.icon-f-log:before {
+  content: "\e901";
+  color: #4c5764;
+}
+.icon-f-noData:before {
+  content: "\e902";
+  color: #051647;
+}
+.icon-f-add:before {
+  content: "\e935";
+  color: #4c5764;
+}
+.icon-f-del:before {
+  content: "\e936";
+  color: #4c5764;
+}
+.icon-f-product:before {
+  content: "\e92c";
+  color: #4c5764;
+}
+.icon-f-img:before {
+  content: "\e92d";
+  color: #4c5764;
+}
+.icon-f-pkg:before {
+  content: "\e92e";
+  color: #4c5764;
+}
+.icon-f-smart:before {
+  content: "\e92f";
+  color: #4c5764;
+}
+.icon-f-excel:before {
+  content: "\e930";
+  color: #4c5764;
+}
+.icon-f-ppt:before {
+  content: "\e931";
+  color: #4c5764;
+}
+.icon-f-txt:before {
+  content: "\e932";
+  color: #4c5764;
+}
+.icon-f-word:before {
+  content: "\e933";
+  color: #4c5764;
+}
+.icon-f-other:before {
+  content: "\e934";
+  color: #4c5764;
+}
+.icon-f-process:before {
+  content: "\e919";
+  color: #4c5764;
+}
+.icon-f-close:before {
+  content: "\e91a";
+  color: #6b7c83;
+}
+.icon-f-plan:before {
+  content: "\e91b";
+  color: #4c5764;
+}
+.icon-f-develop:before {
+  content: "\e91c";
+  color: #4c5764;
+}
+.icon-f-project:before {
+  content: "\e91d";
+  color: #4c5764;
+}
+.icon-f-rightArrow:before {
+  content: "\e91f";
+  color: #4c5764;
+}
+.icon-f-online:before {
+  content: "\e925";
+  color: #4c5764;
+}
+.icon-f-tip:before {
+  content: "\e926";
+  color: #4c5764;
+}
+.icon-f-success:before {
+  content: "\e927";
+  color: #4c5764;
+}
+.icon-f-fail:before {
+  content: "\e928";
+  color: #4c5764;
+}
+.icon-f-logout:before {
+  content: "\e929";
+  color: #4c5764;
+}
+.icon-f-offline:before {
+  content: "\e92a";
+  color: #4c5764;
+}
+.icon-f-unread:before {
+  content: "\e92b";
+  color: #4c5764;
+}
+.icon-f-user:before {
+  content: "\e920";
+  color: #4c5764;
+}
+.icon-f-adminUser:before {
+  content: "\e90b";
+  color: #4c5764;
+}
+.icon-f-operate:before {
+  content: "\e921";
+  color: #4c5764;
+}
+.icon-f-sortAsc:before {
+  content: "\e915";
+}//升序
+
+.icon-f-sortDesc:before {
+  content: "\e914";
+}//降序
+
+.icon-f-down:before ,
+.icon-f-up:before,
+.icon-f-right:before,
+.icon-f-left:before{
+  content: "\e922";
+}//向下\向上\向右\向左
+i.icon-f-down {
+  transform: scale(0.3);
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  -ms-transform: scale(0.3);
+  -o-transform: scale(0.3);
+}
+i.icon-f-up {
+  transform: scale(0.3) rotate(180deg);
+  -webkit-transform: scale(0.3) rotate(180deg);
+  -moz-transform: scale(0.3) rotate(180deg);
+  -ms-transform: scale(0.3) rotate(180deg);
+  -o-transform: scale(0.3) rotate(180deg);
+}
+i.icon-f-right {
+  transform: scale(0.3) rotate(270deg);
+  -webkit-transform: scale(0.3) rotate(270deg);
+  -moz-transform: scale(0.3) rotate(270deg);
+  -ms-transform: scale(0.3) rotate(270deg);
+  -o-transform: scale(0.3) rotate(270deg);
+}
+i.icon-f-left {
+  transform: scale(0.3) rotate(90deg);
+  -webkit-transform: scale(0.3) rotate(90deg);
+  -moz-transform: scale(0.3) rotate(90deg);
+  -ms-transform: scale(0.3) rotate(90deg);
+  -o-transform: scale(0.3) rotate(90deg);
+}
+.icon-f-date:before {
+  content: "\e923";
+  color: #4c5764;
+}
+.icon-f-index:before {
+  content: "\e924";
+  color: #444d6d;
+}
+.icon-f-archive:before{
+  content: "\e916";
+}
+
+
+
+
