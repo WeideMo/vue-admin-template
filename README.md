@@ -1,6 +1,6 @@
-# uvoice
+# vue-admin-template
 
-> A Vue.js project
+> A vue admin backend template project.
 
 ## Build Setup
 
